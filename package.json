@@ -2,10 +2,11 @@
   "name": "amsa-backend",
   "version": "1.0.0",
   "description": "Backend for Amsa Overseas",
-  "main": "server.js",
+  "main": "dist/server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,8 @@
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "nodemailer": "^6.9.13"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
   }
 }
-
