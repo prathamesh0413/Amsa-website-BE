@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "ES2020",
+    "lib": ["ES2020", "DOM"],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+    /* Module Resolution - YEH SABSE ZAROORI HAI */
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    
+    /* Strict Type-Checking Options */
+    "strict": true,
+    
+    /* Output Directory */
+    "outDir": "./dist"
+  },
+  "include": ["server.ts"]
+}
+
